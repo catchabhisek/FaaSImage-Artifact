@@ -1,0 +1,13 @@
+To see the complete pull operation, you need to look into the following files:
+1. distribution/pull_v2.go
+2. distribution/xfer/download.go
+3. builder/builder-next/worker/worker.go
+4. distribution/xfer/transfer.go
+5. layer/layer_storage.go
+6. layer/ro_layer.go
+7. pkg/ioutils/fswriters.go
+8. daemon/graphdriver/overlay2/overlay.go
+9. pkg/chrootarchive/archive.go
+10. pkg/chrootarchive/archive_unix.go
+11. pkg/archive/archive.go
+12. pkg/archive/archive_linux.go
